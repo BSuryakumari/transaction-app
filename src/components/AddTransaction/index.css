@@ -1,0 +1,51 @@
+.add-transaction {
+    margin: 20px auto;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+.add-transaction option{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+  .add-transaction label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-transaction input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+  }
+  .cancel {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+  }
+  
+  .add-transaction button:hover {
+    background-color: #0056b3;
+  }
+  
